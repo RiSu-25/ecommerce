@@ -49,7 +49,7 @@ return (
               {token && 
                 <div className='hidden group-hover:block absolute dropdown-menu right-0 pt-4'>
                   <div className='flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text-gray-500 rounded'>
-                    <a href='http://localhost:5174/' target='_blank' className='cursor-pointer hover:text-black'>Admin Profile</a>
+                    <a href='https://ecommerce-admin-mu-rose.vercel.app/' target='_blank' className='cursor-pointer hover:text-black'>Admin Profile</a>
                     <p onClick={()=>navigate('/orders')} className='cursor-pointer hover:text-black'>Orders</p>
                     <p onClick={logout} className='cursor-pointer hover:text-black'>Logout</p>
                   </div>
